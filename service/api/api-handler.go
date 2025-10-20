@@ -16,7 +16,7 @@ func (rt *_router) Handler() http.Handler {
 	//rt.router.GET("/placeExterior", rt.wrap(rt.getAllPlaces))
 
 	//rt.router.POST("/placeExterior/add", rt.wrap(rt.addPlace))
-	rt.router.GET("/placeExterior/:placeId", rt.wrap(rt.getPlace))
+	//rt.router.GET("/placeExterior/:placeId", rt.wrap(rt.getPlace))
 
 	//rt.router.GET("/users/:id/existence", rt.wrap(rt.getUserExistence))
 
